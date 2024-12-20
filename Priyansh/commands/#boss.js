@@ -18,15 +18,16 @@ module.exports = {
     // Array of Imgur URLs
     handleEvent: async function({ api, event, client, Users, __GLOBAL }) {
         const gifs = [
-            "https://i.imgur.com/hKOVh8n.jpeg",
-            "https://i.imgur.com/O3ptBXe.jpeg",
-            "https://i.imgur.com/ChqXZ7m.jpeg",
-            "https://i.imgur.com/0aARWU3.jpeg",
-            "https://i.imgur.com/dxZNoUf.jpeg",
-            "https://i.imgur.com/Strqyj8.jpeg"
-        ];
+            "https://i.imgur.com/JTZvDYv.jpeg",
+            "https://i.imgur.com/ipwzigc.jpeg",
+            "https://i.imgur.com/aKQ3Q5c.jpeg",
+            "",
+            "",
+            "
+            "
+            ];
 
-        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄰🅁🅈🄰🄽𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
+        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 AYUSH SHRIVASTAVA 𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
         const { threadID, messageID } = event;
         const lowerCaseMessage = event.body.toLowerCase();
 
