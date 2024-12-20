@@ -60,10 +60,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("My Owner AestHetic bOy  SILENT PRINCE\nhttps://www.facebook.com/SILENT PRINCE.HERE🖤", threadID);
    };
 if ((event.body.toLowerCase() == ".") || (event.body.toLowerCase() == "..")) {
-     return api.sendMessage("💐𝐀𝐋𝐄 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐓𝐎 𝐒𝐀𝐇𝐈 𝐒𝐄 𝐋𝐈𝐊𝐇𝐎 𝐀𝐆𝐀𝐑 𝐍𝐀𝐇𝐈 𝐏𝐓𝐀 𝐓𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎SS 𝐀𝐑𝐘𝐀𝐍 S𝐄 𝐏𝐔𝐂𝐇 𝐋𝐎💐", threadID);
+     return api.sendMessage("💐𝐀𝐋𝐄 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐓𝐎 𝐒𝐀𝐇𝐈 𝐒𝐄 𝐋𝐈𝐊𝐇𝐎 𝐀𝐆𝐀𝐑 𝐍𝐀𝐇𝐈 𝐏𝐓𝐀 𝐓𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎SS 𝐀YUSH S𝐄 𝐏𝐔𝐂𝐇 𝐋𝐎💐", threadID);
    };
 
-   if ((event.body.toLowerCase() == "amy") || (event.body.toLowerCase() == "amyy")) {
+   if ((eventy.toLowerCase() == "amy") || (event.body.toLowerCase() == "amyy")) {
      return api.sendMessage("Amy Amy Na KRr IjjaT Sy MeRa Prefix LaGa 0or Bt kRr ITna Free Nhi kRta Me 😎🤞", threadID);
    };
 
@@ -675,7 +675,7 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
           ${rand} 🤣🍁❤
 
 
-           *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝❦ ════ •⊰𝐀MA𝐍⊱• ════ ❦🍀🍒`
+           *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝❦ ════ •⊰AYUSH⊱• ════ ❦🍀🍒`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
