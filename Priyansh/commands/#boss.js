@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
     config: {
-        name: "boss",
+        name: "Malkin",
         version: "1.0.1",
         hasPermssion: 0,
         credits: "SHANKAR SUMAN",
@@ -18,22 +18,22 @@ module.exports = {
     // Array of Imgur URLs
     handleEvent: async function({ api, event, client, Users, __GLOBAL }) {
         const gifs = [
-            "https://i.imgur.com/JTZvDYv.jpeg",
-            "https://i.imgur.com/ipwzigc.jpeg",
-            "https://i.imgur.com/aKQ3Q5c.jpeg",
-            "https://i.imgur.com/ipwzigc.jpeg",
-            "https://i.imgur.com/aKQ3Q5c.jpeg",
-            "https://i.imgur.com/aKQ3Q5c.jpeg"
+            "https://i.imgur.com/qnop7OS.jpeg",
+            "https://i.imgur.com/IxLo9Ht.jpeg",
+            "https://i.imgur.com/ADGd2oO.jpeg",
+            "https://i.imgur.com/eMf90cI.jpeg",
+            "https://i.imgur.com/dP7rPbv.jpeg",
+            "https://i.imgur.com/jfHiKkV.jpeg"
         ];
 
-        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 AYUSH SHRIVASTAVA 𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
+        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄰🅁🅈🄰🄽𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
         const { threadID, messageID } = event;
         const lowerCaseMessage = event.body.toLowerCase();
 
-        if (lowerCaseMessage.startsWith("aryan")) {  
+        if (lowerCaseMessage.startsWith("nitya")) {  
             // Select a random image URL from the array
             const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
-            const downloadPath = path.join(__dirname, 'Boss-Jpg-Images.jpg');
+            const downloadPath = path.join(__dirname, 'Malkin-Jpg-Images.jpg');
 
             // Download image from the random URL
             request(randomGif).pipe(fs.createWriteStream(downloadPath)).on('close', () => {
@@ -42,7 +42,7 @@ module.exports = {
                     attachment: fs.createReadStream(downloadPath)
                 };
                 api.sendMessage(msg, threadID, messageID);
-                api.setMessageReaction("😘", event.messageID, (err) => {}, true);
+                api.setMessageReaction("🙈", event.messageID, (err) => {}, true);
             });
         }
     },
